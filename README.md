@@ -1,273 +1,219 @@
 # alt:V - Open Roleplay
 
+---
+
+Open Roleplay is the base framework for my server: [alt:V Life](https://discord.gg/fc7P9eH).
+
+This project now serves as a reference for RP servers in the future; all additional updates are put on hold and privatized for alt:Life. The code base up to this point is considered free but the Terms and Conditions as well as licensing still stands.
+
+Reach out if you wish to monetize this gamemode.
+
+---
+
 Remember to 🌟 this Github if you 💖 it.
 
----
+Open Roleplay has its own [Official Discord](https://discord.gg/WbzTJXW).
 
-### THIS IS A WORK IN PROGRESS AND IS NOT COMPLETE IN ANY WAY
+### 👉 Sponsor this Project
 
-Open Roleplay is a base gamemode for Roleplay servers. It will include the ideal functionality to get the base ground work for a roleplay gamemode started.
+I have put a ton of work into this project. If you do not want to contribute code and you use this project at least buy me some coffee; I could use it.
 
-[Official O:RP Discord](https://discord.gg/gVfJkcs)
+-   [Github Sponsorship Program](https://www.github.com/sponsors/stuyk)
+-   [PayPal Tipping](paypal.me/stuyk)
+-   [Twitch Subscription](https://www.twitch.tv/stuyksoft/)
+-   [Brave Browser Referral](https://brave.com/stu514)
 
----
+### 📝 Licensing
+
+1. Don't Monetize this Game Mode
+2. Don't Remove Splash Marks
+3. Don't Remove O:RP Links or Twitch Links from gamemode.
+4. At least mention this repository; before claiming it as your own.
+
+### Servers Who Have Monetization Allowance
+
+* ctgaming.fr
+
+### 🚧 Feature List and Roadmap
+
+You can find a full list of features and the roadmap [here](https://docs.google.com/document/d/19f9xTn6m3qVfUZYV6cQ8dMstLLdfYC2BavTV7YpzfLc/).
 
 **IMPORTANT** If you are not a developer; this may not be the project for you. There is some general configuration that needs to be done and understanding code is important.
 
-**Roadmap**
+I **will not** be providing direct support for this gamemode; if you have an issue or come across actual functionality issues please raise an issue in the **issues** tab. Otherwise; additional help can be found by subscribing through [my twitch page](https://www.twitch.tv/stuyksoft/) and then joining the [Discord Group](https://discord.gg/gVfJkcs)
 
--   [x] PostgreSQL Integration
--   [x] Login and Registration
--   [x] Character Facial Customization
--   [x] Roleplay Name Formatting
--   [x] Character Clothing Customization
--   [x] Glasses, Bracelets, etc.
--   [x] Barbershop
--   [ ] Tattoos
--   [x] Character Inventory System
--   [x] Item Configuration
--   [x] Item Drops
--   [x] Item Pickups
--   [x] Vehicle System
--   [x] Job System
--   [x] Example Job Configuration
--   [x] Job System Types
--   [x] Driving Test
--   [x] Taxi Job
--   [x] Mechanic Job
--   [x] Vehicle Customization
--   [ ] Vehicle Fuel System
--   [x] Nametags / Character Names
--   [ ] Door System
-    -   [ ] House Type
-    -   [ ] Shop System
-        -   [ ] Gun Store
-        -   [ ] Food Store
-        -   [ ] Medical Clinic
--   [ ] Door Sales System
--   [ ] Administrative Toolkit
--   [x] Phone System
--   [x] Currency System
--   [x] ATM / Bank System
-    -   [ ] Transfer Money
--   [ ] Faction System
--   [ ] Basic Anticheat
--   [x] Time Sync
--   [x] Weather Sync
--   [x] Interaction System
-    -   [x] Interaction for Vehicles
-    -   [ ] Interaction for Players
-        -   [ ] Give Money
-    -   [x] Interaction for Objects
-    -   [x] Interaction for Self
-        -   [x] Animations for Sitting
--   [x] Player Death Handling
--   [x] Taxation
-    -   [ ] Taxation goes to Government Fund
--   [x] Animation Manager
--   [x] Context Menu of Animations
--   [x] Custom Sounds! Blat!
--   [x] Custom Chat
-    -   [x] Custom Chat Commands
-    -   [x] Custom Chat Colors
-    -   [ ] Custom Chat Notification Functions / Clickables
-    -   [ ] Custom Chat is Repositionable?
-    -   [x] Ranged Chat
-    -   [x] Roleplay Commands (/me, /do, /b, /cc)
--   [x] Experience Curve for Skill System
--   [ ] Skill System
-    -   [x] Agility (Sprint Modifier)
-        -   Increase Stamina
-        -   Increase Level of Stamina
-        -   Run Longer / Swim Longer
-    -   [ ] Cooking (Craft Better Food)
-        -   Create Better Healing Food
-        -   Create Better Healing Drinks
-    -   [ ] Medicine (Health Healed on Player Revivals)
-        -   Heal users quicker.
-        -   Revive users quicker.
-    -   [ ] Notoriety (Gained Through Criminal Jobs, access to better jobs. Create a gang)
-        -   Lose nobility xp by doing notoriety activities.
-        -   Gain access to create a gang past a certain level.
-        -   Lose XP three times as fast when doing good things.
-        -   Drug Creation Jobs
-        -   Gun Creation Jobs
-        -   Illegal Shipment Jobs
-        -   Hitman Jobs (95+)
-    -   [ ] Nobility (Opposite of Notoriety, access to better jobs / factions.)
-        -   Lose notoriety xp by doing nobility activities.
-        -   Gain access to factions past a certain level. ie. Police Trainee
-        -   Lose XP three times as fast when doing bad things.
-        -   Medicinal Jobs
-        -   Police Jobs
-        -   Firefighter Jobs
-    -   [ ] Gathering (Gather more items for Drug Crafting)
-        -   Basically use better gathering items.
-    -   [x] Mechanic (Repair vehicles quicker; access to repair anywhere at 75+)
-        -   Repair Quicker on Mechanic Job
-        -   Use Repair Kits After Level 75+
-    -   [ ] Crafting (Better Quality Items)
-        -   Craft Weapons
-        -   Craft Better Pickaxes
-        -   Craft Better Gathering Items
-        -   Craft Better Hammers
-        -   Craft Repair Kits
-        -   All Crafting Items Take Metal
-    -   [x] Woodcutting
-        -   Craft Refined Wood for Weapons / Tools
-        -   Unrefined Wood
-        -   Refined Wood
-    -   [x] Smithing
-        -   Craft Metal for Weapons / Tools
-        -   Refined Metal
-    -   [x] Mining (Gather more items from Mining, use better equipment)
-        -   Basically better pickaxes that mine faster.
-        -   Unrefined Rock
--   [ ] Drug System
-    -   [ ] Drugs for Health (Healium)
-    -   [ ] Drugs for Armor (Kevlarium)
-    -   [ ] Drugs for Fast Running (Speed)
-    -   [ ] Drug Jobs 3 jobs for each type.
--   [x] Playing Hours Stats
--   [ ] Loyalty Program
-    -   [ ] Extra Housing Slots for Hours Played
-    -   [ ] Extra Backpack Slots for Hours Played
-    -   [ ] Extra Shop Slots for Hours Played
-    -   [ ] Extra Vehicle Slots for Hours Played
-
-I will not be providing direct support for this gamemode; if you have an issue or come across actual functionality issues please raise an issue in the **issues** tab. Otherwise; additional help can be found by subscribing through [my twitch page and joining discord](https://www.twitch.tv/stuyksoft/).
-
----
-
-### Licensing
-
-If you'd like to remove the splash screens at any point; we can negotiate at a price. However, you will be responsible for removing them and not me. Otherwise, just leave the splash screens alone. This is a free framework and the least you can do is give credit.
-
----
-
-### General Information and Hotkeys
+### ⌨️ Hotkeys
 
 ```
-// General
 Tab --------> Press to Toggle Cursor
 Tab + RMB  -> Show Context Menu on User
 Tab + LMB  -> Select Context Option
-E ----------> Most clothing shops, jobs, etc. to interact.
-I ----------> Toggle Inventory
-T ----------> Chat
-ESC --------> Exit Most Menus
-
-// Vehicles
-Shift + F  -> Leave Engine Running
-Shift + G  -> Toggle Engine
-Shift + H  -> Toggle Lock
-
-// Utility
-Shift + F1 -> Get Interior Info in Console
-Shift + F2 -> Get Position
-Shift + F7 -> Hide Chat
+T ----------> Open Chat
+F1 ---------> Help Menu
+U ----------> Open Gang Menu (Notoriety 25+)
+Shift + F7 -> Toggle Chat
 ```
+
+## 💻 Installation
+
+#### If you don't have NodeJS v12+; please go install it.
+
+**Requirements:**
+
+-   Basic Programming Fundamentals
+
+-   Basic Problem Solving Fundementals
+
+-   Linux (Ubuntu 18+ Preferred) or Windows 10+
+
+-   [NodeJS](https://nodejs.org/en/)
+
+-   [GIT](https://git-scm.com/downloads)
+
+-   PostgresSQL **v10 to v11.5**
+
+    -   PLEASE DO NOT DOWNLOAD v12. IT WILL NOT WORK.
+
+    -   [v11.5 Direct Download Windows](https://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64.exe)
+
+    -   [Installing Postgres on Ubuntu (Only Go to Step #3)](https://tecadmin.net/install-postgresql-server-on-ubuntu/)
+
+### Postgres
+
+#### Windows Postgres Setup
+
+-   Run the .exe and follow the prompts.
+
+-   Run pgAdmin
+
+-   You will be prompted for a password. This is your database password.
+
+-   After you need to create a database called `altv`.
+
+-   Here's a very brief `streamable example` of that taking place.
+
+[Here's how you do it!](https://streamable.com/oq73f)
+
+-   **Note:** By default your username will be `postgres` and your password will be whatever you use to log in to pgAdmin4.
+
+#### Linux Postgres Setup
+
+-   [Follow these instructions up to step #3](https://tecadmin.net/install-postgresql-server-on-ubuntu/)
+
+-   Type: `su - postgres`
+
+-   Type: `psql`
+
+-   Type: `CREATE DATABASE altv;`
+
+-   If all is well you will see `CREATE DATABASE` or something similar replied.
+
+-   Type: `CREATE USER stuyk WITH ENCRYPTED PASSWORD 'abc123';`
+
+-   If all is well you will see `CREATE ROLE` replied.
+
+-   We now have a user called `stuyk` with a password of `abc123`. We need to assign to db.
+
+-   Type: `GRANT ALL PRIVILEGES ON DATABASE altv TO stuyk;`
+
+-   If all is well you wil see `GRANT` replied.
+
+-   Type: `\q` to exit.
+
+-   Type: `sudo -u root`
+
+-   This will bring you back to your root account.
+
+-   Now follow the rest of the steps below.
 
 ---
 
-### Installation
+-   Open a Power Shell or Command Prompt or Terminal
 
-If you don't have NodeJS; please go install it.
+-   Download the latest version of this resource (100% Recommend CLONING the REPO with GIT).
 
-The file structure below is the **required** structure you must use for this game mode. You must follow it exactly for this resource to work.
+-   After CLONING, CD into the repo through the same command prompt.
 
--   Grab the latest version of the alt:V server files. They must be clean. No resources.
+-   Open a command prompt and run `npm run orp`. **FOLLOW THE INSTRUCTIONS CAREFULLY ON PROMPT**.
 
--   Download [Postgres-Wrapper](https://github.com/team-stuyk-alt-v/altV-Postgres-Wrapper) this is the Postgres SQL helper that was written to make database usage easy. Extract it and put this into a folder called `postgres-wrapper`. Directly inside you should have `resource.cfg` if done correctly.
+-   When you get to the Discord Setup; make sure you hit 'yes' if this is a new server.
 
--   Install the latest version of [PostgresSQL](https://www.postgresql.org/download/) for either windows, linux, or whatever OS you're running.
+### Discord
 
--   Once installed you need to create a username and password for your database; and create a database called 'altv' or something else if you know what you're doing. **PAY ATTENTION HERE YOU'LL NEED THIS INFO**
+#### Setting Up a Discord Bot for this Gamemode
 
-**Creating on Windows with pgAdmin4**
-Where to navigate:
-![](https://i.imgur.com/FBBeMTt.png)
+**Please Create a Discord Application for your Login System.**
 
-Postgres is the username for this database; and altv is the name:
-![](https://i.imgur.com/FaEmnvg.png)
+**Please Visit: https://discordapp.com/developers/applications/**
 
-After; it should be running automatically in your services on windows. You can always restart your database through your Task Manager.
+-   Inside of page you need to create a Discord Application and turn it into a bot and copy the bot secret.
 
-![](https://i.imgur.com/6pA8PWB.png)
+-   You also **MUST** add this bot to your own server.
 
--   Download the latest version of this resource. You can either clone the repository or simply download it. The `resource.cfg` and the rest of the files should be directly inside of a folder called `orp`.
+1. Hit New Application
+2. Set the Name for Your Bot / Application
+3. Click on the `Bot` tab.
+4. Transform your Application into a bot.
+5. Name your bot.
+6. Tick `Administrator` or just `Send/Read Messages`
+7. Copy the bots secret token.
+8. Make sure the bot is not public.
+9. Navigate to oAuth2 tab. Tick `bot` in scopes.
+10. Copy the URL inside of scopes. Paste in browser.
+11. Add the bot to your designated Discord.
+12. Make sure you save your changes.
+13. Keep this page open for the next section.
 
--   To configure your database, you will need the `resources/orp/server/configuration/database.mjs` file configured with the required parameters to connect to your database. Open `database.mjs.example`, fill out the required parameters, and save it to a new file named `database.mjs`.
+### Gamemode Setup & Installation
 
-**Example Database Configuration**
+#### Installing the Rest of O:RP
 
-```js
-export const DatabaseInfo = {
-    username: 'postgres',
-    password: 'abc123',
-    address: 'localhost',
-    port: 5432,
-    dbname: 'altv'
-};
-```
+-   Clone this repository from github.
 
-**Example Folder Structure**
+-   Open a Command Prompt or Power Shell Prompt in cloned directory.
 
-```yaml
-altVServerFolder/
-└── resources/
-|   ├── orp/
-|   |   ├── server/
-|   |   ├── client/
-|   |   └── resource.cfg
-|   ├── postgres-wrapper/
-|   |   ├── client.mjs
-|   |   ├── database.mjs
-|   |	└── resource.cfg
-└── package.json
-└── altv-server.exe
-└── node_modules/
-```
+-   Type `npm run orp` to begin the installation process.
 
-**Installing Packages for NodeJS**
-After installing the above; if you don't have a package.json in your main server directory where your .exe is you're going to need to do the following:
+-   You will be asked to agree to some terms and conditions.
 
-Open a command prompt or powershell next to your .exe file
+-   You will be prompted for various installation steps and must provide the information asked for.
 
-```
-npm init
-```
+-   After filling in all information you are prompted for the server files will download.
 
-Then press enter a bunch of times until its done stepping you through.
+-   We target beta branch with this gamemode.
 
-After you need to install the following packages from command prompt or power shell.
+-   Start your server based on whichever platform you use.
 
-```
-npm install typeorm
-npm install sjcl
-npm install pg
-```
+    -   Run these from a terminal or command prompt.
 
-Great; now you have all the prerequisites.
+    -   Windows -> `altv-server.exe`
 
-Open your `server.cfg` next to your `altv-server.exe`.
+    -   Linux -> `./start.sh`
 
-You need to add `orp` to resources.
+-   Join your server with Discord Open.
+
+-   **IF DISCORD DOES NOT PROMPT YOU** Copy the code on screen.
+
+-   PM the Bot you setup earlier with `!login <code>`
+
+### Docker (Optional)
+
+#### Installation using Docker
+
+If you **do not know what docker is.** Please do not proceed any further.
+
+OpenRP includes support for building and running the alt:V and PostgreSQL server using Docker. Included is a docker-compose.yml which contains many variables that you will need to edit. Any changes you make will require you to rebuild the altv-openrp container.
+
+To build new containers, first edit the docker-compose.yml file and fill in all the details for the altv server and discord information, and then build with docker-compose. Note: You must agree with OpenRP terms of service by passing TOS_AGREE=true as a build argument.
 
 ```
-name: 'Open RP'
-host: 0.0.0.0
-port: 7766
-players: 1000
-announce: false
-gamemode: OpenRP
-website: twitch.tv/stuykgaming
-language: lang-here
-description: 'Using Open Roleplay'
-modules: [ node-module ]
-resources: [ orp ]
-token: ''
-debug: 'true'
+docker-compose build --build-arg TOS_AGREE=true
 ```
 
-That's about it; once you run it you'll be greeted with terms and conditions and you can follow the additional instructions from there.
+To run the containers:
+
+```
+docker-compose up
+```
+
+Please see Docker and Docker-Compose documentation for more options.
